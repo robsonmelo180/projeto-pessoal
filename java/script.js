@@ -33,7 +33,7 @@ if (loginForm) {
             localStorage.setItem("usuarioLogado", "true");
 
             // CAMINHO PARA O SISTEMA
-            window.location.href = "dashboard.html";
+            window.location.href = "index01.html";
 
         } else {
 
@@ -59,7 +59,7 @@ if (
 
     if (usuarioLogado !== "true") {
 
-        window.location.href = "login.html";
+        window.location.href = "index.html";
 
     }
 
